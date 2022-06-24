@@ -1,0 +1,57 @@
+.bg-distination {
+    width:  100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.descrition-block{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.descrition-text {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+}
+
+.bg-img {
+    background-image: url('../../../public/Images/map.svg');
+    width: 53%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.list {
+    width: 360px;
+    height: 144px;
+    border-radius: 13px ;
+    margin-top: 50px;
+    box-shadow: 4px 4px 4px 4px lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.column {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.spotPostion{
+        width: 80px;
+        text-align: center;
+        
+}
+
+.pictures {
+    border-radius: 13px 0 0 13px  ;
+}
